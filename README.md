@@ -17,12 +17,13 @@ Large-scale foundation models, such as CLIP, have demonstrated remarkable succes
 <img src="https://github.com/mainaksingha01/GOPro/blob/master/images/architecture.png" width="1000">
 
 ## Datasets
+ Follow the instructions given in [CoOp.datasets](https://github.com/KaiyangZhou/CoOp/blob/main/DATASETS.md) to download the datasets and set up the dataloaders.
  
 ## Code
 
  - `datasets` folder contains the dataloader files of each datasets.
  - `trainers` folder contains the code of our model.
- - Clone the awesome toolbox of [dassl]([https://github.com/KaiyangZhou/Dassl.pytorch](https://github.com/KaiyangZhou/Dassl.pytorch/tree/master/dassl)) inside this repo.
+ - Clone the awesome toolbox of [dassl](https://github.com/KaiyangZhou/Dassl.pytorch/tree/master/dassl) inside this repo.
  - `scripts` folder holds the scripts of for training and testing.
  - Define the dataset and task (base2new, cross-dataset, domain-generalization) in the script command 
 
