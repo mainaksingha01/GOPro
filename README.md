@@ -2,7 +2,7 @@
 
 Official repository of GOPro.
 
-## **BMVC 2023**
+## **British Machine Vision Conference (BMVC) 2023**
 
 [![paper](https://img.shields.io/badge/Conference-Paper-blue)](https://papers.bmvc2023.org/0314.pdf)
 [![supplement](https://img.shields.io/badge/Supplementary-Material-F9D371)](https://bmvc2022.mpi-inf.mpg.de/BMVC2023/0314_supp.pdf)
@@ -44,7 +44,7 @@ $ bash test.sh caltech101 basenew
 
 ### Domain Generalization
 
-<img src="https://github.com/mainaksingha01/GOPro/blob/master/images/dg.png" width="600">
+<img src="https://github.com/mainaksingha01/GOPro/blob/master/images/dg.png" width="500">
 
 ## Bibtex
 
