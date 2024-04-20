@@ -154,7 +154,6 @@ class ModifiedResNet(nn.Module):
         x4 = self.layer4(x3)
         data.append(x4)
         feat = self.attnpool(x4)
-        data = torch.stack(data)
         return feat, data
 
 
