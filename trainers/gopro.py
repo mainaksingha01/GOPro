@@ -463,7 +463,7 @@ class GOPro(TrainerX):
         self.model = CustomCLIP(cfg, classnames, clip_model)
 
         print("Turning off gradients in both the image and the text encoder")
-        name_to_update = ["prompt_learner", "simclr"]
+        name_to_update = ["prompt_learner", "simproj"]
         
         for name, param in self.model.named_parameters():
             if not any(n in name for n in name_to_update):
