@@ -18,7 +18,18 @@ Large-scale foundation models, such as CLIP, have demonstrated remarkable succes
 
 ## Datasets
  Follow the instructions given in [CoOp.datasets](https://github.com/KaiyangZhou/CoOp/blob/main/DATASETS.md) to download the datasets and set up the dataloaders.
- 
+
+## How to install
+
+### Create your environment:
+
+```bash
+$ conda create -n gopro python=3.8
+$ conda activate gopro
+$ conda install pytorch==1.12.1 torchvision==0.13.1 cudatoolkit=10.2 -c pytorch
+$ pip install -r requirements.txt
+```
+
 ## Code
 
  - `datasets` folder contains the dataloader files of each datasets.
